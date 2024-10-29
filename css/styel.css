@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Handjet", sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: blueviolet;
+    border: 5px black solid;
+    font-style: italic;
+}
+ header{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 2px 5px;
+ }
+ footer{
+    background-color: chartreuse;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .about{
+    background-color: burlywood;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px ;
+    padding-right: 50px ;
+ }
+ h2{
+    text-align: center;
+    font-size: 2rem;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+ }
+ p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+ }
+ .avatar{
+    display: block;
+    margin:0 auto;
+ }
+ .articles{
+    padding:20px ;
+ }
+ .content {
+   padding: 20px 50px;
+ }
+ p::first-line{
+   letter-spacing: 10px;
+   text-decoration: none;
+ }
+ #main_menu h2{
+   font-weight: normal;
+    color: chocolate;
+ }
+
+
+
+
+.articles a{
+   color: chocolate;
+ }
+   
+   .link :hover{
+      color: lightgreen;
+   }
+   .link :focus{
+      color:palevioletred;
+      border: 1px solid yellow;
+   }
+   link :hover{
+      color: lightgreen;
+   }
+   link :focus{
+      color:palevioletred;
+      border: 1px solid yellow;
+   }
+
+   a:link {
+      color:darkgoldenrod
+   }
+   a:link {
+      color:palevioletred;
+     
+   }
+   a:visited {
+      color: cornsilk;
+   }
+   a:focus{
+      color: crimson;
+   }
+   a:hover{
+      color: rgb(207, 4, 163);
+      text-decoration: underline;
+   }
+   a:active {
+      color: blueviolet;
+   }
+   
+   .page-list li:nth-child(odd) {
+      background-color: deeppink;
+   }
+
+   h2::after{
+      content: " new";
+      font-size: 10px ;
+      margin-left: 10px ;
+      color: darkblue;
+   }
+   .content img{
+      width:500px;
+      float: left;
+   }  
+   .table-example{
+      border: 5px red solid;
+      border-collapse: collapse;
+  }
+  
+  .termins::after{
+      content: "Важно!";
+      font-size: 10px;
+      margin-left: 10px;
+      color: red;
+      background-color: rosybrown;
+  }
+  
+  p::first-line{
+      letter-spacing: .2rem;
+  }
+  
+  .table-example td, 
+  .table-example th{
+      border-bottom: black 1px solid;
+      padding: 10px 20px;
+  }
+  p:lang(en) {
+      font-style: italic;
+      color:brown;
+    }
+  
+  .table-example td:nth-child(3){
+      color: blue;
+      font-weight: bold;
+  }
+  
+  .table-example tr:nth-child(odd){
+      background-color: aqua;
+  }
+  
+  .table-exampletr:nth-child(odd) td{
+      border-bottom: 1px solid blue;
+  }
+  
+  #form-example{
+      width: 300px;
+      margin: 20px auto;
+  }
+  
+  #form-example input[type="submit"]{
+      background-color: aqua;
+      border: 1px darkblue solid;
+      padding: 7px 15px;
+      color: darkblue;
+      border-radius: 5px;
+  
+  }
+  
+  #form-example input[type="submit"]:hover{
+      background-color: rgb(17, 185, 185);
+      border-radius: 7px;
+  }
+  
+  .article4 dd{
+      font-size: 1.3rem;
+  }
+  
+  #form-example input[type="submit"]:disabled{
+      background-color: lightgray;
+      color: gray;
+      border: gray;
+  }
+  
+  #form-example input[type="text"],
+  #form-example input[type="password"]{
+      background-color: blueviolet;
+      border: none;
+      border-bottom: 1px solid darkblue;
+      padding: 7px;
+  }
+  
+  #form-example input[type="text"]:hover,
+  #form-example input[type="password"]:hover{
+      background-color: lavenderblush;
+  }
+  td, th {
+   border: 4px solid red;
+  }   
+      
