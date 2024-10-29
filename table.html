@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица и формы</title>
+    <link rel="stylesheet" href="css/styel.css"> 
+</head>
+<body>
+    <table class="table-example">
+        <caption>Счёт</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+                <th>Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Ручка</td>
+            <td>50</td>
+            <td>5</td>
+            <td>250</td>
+            <td rowspan="4">875</td>
+        </tr>
+        <tr>
+            <td>Тетрадь</td>
+            <td>15</td>
+            <td>15</td>
+            <td>225</td>
+           
+        </tr>
+        <tr>
+            <td>Пенал</td>
+            <td>250</td>
+            <td>1</td>
+            <td>250</td>
+           
+        </tr>
+        <tr>
+            <td>Карандаш</td>
+            <td>30</td>
+            <td>5</td>
+            <td>150</td>
+           
+        </tr>
+
+    </tbody> 
+    </table>
+    <form id="form-example"> 
+        <label for="login">Введите логин</label><br>
+        <input type="text" id="login" placeholder="Логин" required ><br>
+        <label for="password">Введите пароль</label><br>
+        <input type="password" id ="password" placeholder="Пароль" required><br>
+        <input type="checkbox" id="agreement">
+        <label for="agreement"> Запомнить меня</label><br>
+
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">М</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Ж</label><br>
+
+        <input type="submit" value="Войти"><br>
+    </form>
+</body>
+</html>
